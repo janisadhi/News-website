@@ -1,4 +1,5 @@
 
+<?php wp_footer()?>
 <footer class="footer navbar-dark bg-primary  text-white">
         <div class="container-xl">
             <div class="row">

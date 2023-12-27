@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>News Website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style1.css">
 </head>
 
 <body>
@@ -44,3 +44,4 @@ wp_nav_menu(array(
             <label class="custom-control-label" for="themeSwitch">Dark Mode</label>
         </div>
     </nav>
+    <?php wp_head()?>

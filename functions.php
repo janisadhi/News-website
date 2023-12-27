@@ -33,5 +33,15 @@ add_filter('nav_menu_link_attributes', 'add_anchor_class', 10, 3);
 
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'custom-header' );
+function custom_excerpt($text, $length)
+{
+    $excerpt = strip_tags($text);
+    $words = explode(' ', $excerpt);
+    $words = array_slice($words, 0, $length);
+    $excerpt = implode(' ', $words);
+    return $excerpt;
+}
+
+
 
 ?>
